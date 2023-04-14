@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo-search">
+			<div class="logo">
+				<img src="src/logo.png" alt="Brawl">
+				<h3>Brawl Stars</h3>
+			</div>
+			<form action="#">
+				<div class="search">
+					<input placeholder="" required>
+						<label><ion-icon name="search-outline"></ion-icon> Поиск</label>
+				</div>
+			</form>
+		</div>
+
+		<div class="log-out">
+			<img src="src/pers.png" alt="">
+			<span id="username">bebra_abuser228</span>
+			<ion-icon name="log-out-outline"></ion-icon>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="left-sidebar">
+			<ul>
+				<li><img src="src/pers.png" alt="" style="width: 20px; height: 20px;"><a href="#" data-tab="1" class="nav-tab active">Персонажи</a> </li>
+				<li><img src="src/maps.png" alt="" style="width: 20px; height: 20px;"><a href="#" data-tab="2" class="nav-tab">Карты</a> </li>
+				<li><img src="src/tactics.png" alt="" style="width: 20px; height: 20px;"><a href="#" data-tab="3" class="nav-tab">Тактики</a> </li>
+				<li><img src="src/clans.png" alt="" style="width: 20px; height: 20px;"><a href="#" data-tab="4" class="nav-tab">Кланы</a> </li>
+				<li><img src="src/powerleague.png" alt="" style="width: 20px; height: 20px;"><a href="#" data-tab="5" class="nav-tab">Силовая лига</a> </li>
+			</ul>
+		</div>
+
+		<div data-tab-content="1" class="wrapper active">
+			<div class="pers">
+				<h3>Спайк</h3>
+				<img src="src/spike.png" alt="">
+			</div>
+			<div class="pers">
+				<h3>Динамайк</h3>
+				<img src="src/dynamike.png" alt="">
+			</div>
+			<div class="pers">
+				<h3>Базз</h3>
+				<img src="src/buzz.png" alt="">
+			</div>
+		</div>
+
+		<div data-tab-content="2" class="wrapper">
+			<div class="pers">
+				<h3>Штольня</h3>
+				<img src="src/shtolnya.png" alt="">
+			</div>
+			<div class="pers">
+				<h3>Пять озёр</h3>
+				<img src="src/pyat_ozer.jpeg" alt="">
+			</div>
+		</div>
+
+		<div data-tab-content="3" class="wrapper">
+			<div class="pers">
+				<h3>Поплава</h3>
+				<img src="src/ewa_water.jpeg" alt="">
+			</div>
+			<div class="pers">
+				<h3>Шелли+кусты</h3>
+				<img src="src/shelly_tac.jpg" alt="">
+			</div>
+		</div>
+
+		<div data-tab-content="4" class="wrapper">
+			<div class="pers">
+				<h3>МФТИ ПГУ</h3>
+				<img src="src/mipt.jpeg" alt="">
+			</div>
+			<div class="pers">
+				<h3>HSE LOVERS</h3>
+				<img src="src/hse.jpeg" alt="">
+			</div>
+		</div>
+
+		<div data-tab-content="5" class="wrapper">
+			<div class="power">
+				<h1>СИЛОВАЯ ЛИГА!</h1> 
+				<img src="src/power.jpeg" style="border-radius: 10px;width: 700px;" alt="">
+			</div>
+		</div>
+
+
+	</div>
+	<script src="script/script.js"></script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
